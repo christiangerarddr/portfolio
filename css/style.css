@@ -16,6 +16,18 @@
 	line-height: 42px;
 }
 
+.cover-heading-2 {
+	color: #333;
+	font-weight: 700;
+	font-size: 1.5rem;
+	letter-spacing: -2px;
+	line-height: 21px;
+}
+
+sup {
+	font-size: .9rem;
+}
+
 .lead {
 	color: #343a40;
 	font-weight: 400;
@@ -145,6 +157,10 @@ footer a:hover {
 
 .btn-mybtn {
 	background-color: #dc3545;
+}
+
+.text-warning {
+	color: #F0DB4F !important;
 }
 
 
