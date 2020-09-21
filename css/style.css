@@ -175,6 +175,14 @@ footer a:hover {
 /*tablet view*/
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+
+	.cover-container{
+		max-width: 85%;
+		overflow: hidden;
+	}
+	.cover-heading{
+		font-size: 3rem;
+	}
 	.nav-masthead {
 		margin-right: 1rem;
 		margin-top: -0.25rem;
@@ -210,6 +218,10 @@ footer a:hover {
 
 @media only screen and (max-width: 400px) {
 
+	.cover-container{
+		max-width: 100%;
+		overflow: hidden;
+	}
 	.cover-heading {
 	color: #333;
 	font-weight: 900;
@@ -218,31 +230,8 @@ footer a:hover {
 	line-height: 42px;
 	}
 
-	.surname {
-		font-size: 2.4rem;
-	}
-
-	.about {
-	z-index: 1;
-	margin-top: 5vh;
-	text-align: left;
-	background: rgba(0, 0, 0, .8);
-	width: 92vw;
-	min-height: 65vh;
-	padding: 0.5rem!important;
-	font-weight: 600;
-	letter-spacing: 0.5px;
-	border-radius: 10px;
-	}
-
-	.img-me {
-		width: 35vh;
-		height: 35vh;
-	}
-	.me {
-		position: relative;
-		left: -5%;
-		border-radius: 50%;
+	.inner{
+		line-height: 4.5vh;
 	}
 
 }
