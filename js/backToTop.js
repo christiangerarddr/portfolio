@@ -4,7 +4,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
 	$("#myBtn").css('opacity', '1');
-	$("#myBtn").css('transition', '1s');
+	$("#myBtn").css('transition', '2s');
   } else {
 	$("#myBtn").css('opacity', '0');
   }
