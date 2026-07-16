@@ -9,58 +9,53 @@
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/style.css">
 	<link href="css/cover.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/mysass_template.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 </head>
-<body class="text-center">
-	<header>
+<body class="text-center has-site-nav">
+	<header class="site-header">
+		<nav class="site-nav" aria-label="Main navigation">
+			<a href="index.html" class="site-nav__brand">
+				<span class="site-nav__brand-accent">C</span>GDR
+			</a>
 
-	    <nav class="menu">
-	      <ul class="menu-nav">
-	        <li class="nav-item">
-	          <a href="index.html" class="nav-link">
-	            Home
-	          </a>
-	        </li>
-	        <li class="nav-item">
-	          <a href="about.html" class="nav-link">
-	            About Me
-	          </a>
-	        </li>
-	        <li class="nav-item">
-	          <a href="work.html" class="nav-link">
-	            My Work
-	          </a>
-	        </li>
-	        <li class="nav-item current">
-	          <a href="contact.html" class="nav-link">
-	            How To Reach Me
-	          </a>
-	        </li>
-	      </ul>
-	    </nav>
-	</header>
-	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-		<header class="masthead mb-auto">
-			<div class="inner">
-				<h3 class="masthead-brand">Beta</h3>
-				<nav class="nav nav-masthead justify-content-center">
-					<a class="nav-link" href="index.html">Home</a>
-					<a class="nav-link" href="about.html">About Me</a>
-					<a class="nav-link" href="work.html">My Works</a>
-					<a class="nav-link active" href="contact.html">Contact</a>
-				</nav>
+			<button type="button" class="site-nav__toggle" aria-expanded="false" aria-controls="site-nav-menu" aria-label="Toggle navigation menu">
+				<span class="site-nav__toggle-bar"></span>
+				<span class="site-nav__toggle-bar"></span>
+				<span class="site-nav__toggle-bar"></span>
+			</button>
+
+			<div class="site-nav__menu" id="site-nav-menu">
+				<ul class="site-nav__links">
+					<li>
+						<a href="index.html" class="site-nav__link">Home</a>
+					</li>
+					<li>
+						<a href="about.html" class="site-nav__link">About</a>
+					</li>
+					<li>
+						<a href="work.html" class="site-nav__link">Work</a>
+					</li>
+					<li>
+						<a href="contact.html" class="site-nav__link site-nav__link--active" aria-current="page">Contact</a>
+					</li>
+				</ul>
+				<div class="site-nav__social">
+					<a href="https://github.com/christiangerarddr" target="_blank" rel="noopener noreferrer" class="site-nav__social-link" aria-label="GitHub profile">GitHub</a>
+					<a href="https://www.linkedin.com/in/christian-gerard-d-066472276/" target="_blank" rel="noopener noreferrer" class="site-nav__social-link" aria-label="LinkedIn profile">LinkedIn</a>
+				</div>
 			</div>
-		</header>
+		</nav>
+	</header>
+	<div class="cover-container d-flex w-100 p-3 mx-auto flex-column">
 		<div class="about">
 			<div class="container">
 				<h3 class="about-heading mb-3 about-heading"><span class="text-danger">Contact</span>Me</h3>
 				<p>GitHub: <a href="https://github.com/christiangerarddr" target="_blank">@christiangerarddr</a></p>
-				<p>LinkedIn: <a href="https://www.linkedin.com/in/christian-gerard-delos-reyes-062658177/" target="_blank">Christian Gerard Delos Reyes</a></p>
-				<p>Find me at Discord: otomatiko#6847</p>
-				<a href="https://docs.google.com/document/d/1kpGV9jtLCx96VHtmlBsmnoRESIsPii45AQJmkcfrnHQ/edit?usp=sharing" class="btn btn-mybtn btn-sm" target="_blank">Download my Resume</a>
+				<p>LinkedIn: <a href="https://www.linkedin.com/in/christian-gerard-d-066472276/" target="_blank">Christian Gerard Delos Reyes</a></p>
+				<a href="https://docs.google.com/document/d/1XDAUcEviitoTFemWa0sYbbc3p-TdJVueCCDxhnCi0ow/edit?tab=t.0" class="btn btn-mybtn btn-sm" target="_blank">Download my Resume</a>
 
 				<form class="mt-3" id="my-form" action="https://formspree.io/meqpjnqv" method="POST" >
 					<label>Enter your Email:</label>

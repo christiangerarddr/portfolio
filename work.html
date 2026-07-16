@@ -4,109 +4,267 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-	<title>My Works</title>
+	<meta name="description" content="Professional and personal projects by Christian Gerard Delos Reyes — Laravel, AWS, AI integrations, e-commerce, and SaaS development.">
+	<title>My Work — Christian Gerard Delos Reyes</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/backToTopBtn.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="css/cover.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/mysass_template.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 </head>
-<body class="text-center">
-	<header>
+<body class="text-center has-site-nav">
+	<header class="site-header">
+		<nav class="site-nav" aria-label="Main navigation">
+			<a href="index.html" class="site-nav__brand">
+				<span class="site-nav__brand-accent">C</span>GDR
+			</a>
 
-	    <nav class="menu">
-	      <ul class="menu-nav">
-	        <li class="nav-item">
-	          <a href="index.html" class="nav-link">
-	            Home
-	          </a>
-	        </li>
-	        <li class="nav-item">
-	          <a href="about.html" class="nav-link">
-	            About Me
-	          </a>
-	        </li>
-	        <li class="nav-item current">
-	          <a href="work.html" class="nav-link">
-	            My Work
-	          </a>
-	        </li>
-	        <li class="nav-item">
-	          <a href="contact.html" class="nav-link">
-	            How To Reach Me
-	          </a>
-	        </li>
-	      </ul>
-	    </nav>
-	</header>
-	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-		<header class="masthead mb-auto">
-			<div class="inner">
-				<h3 class="masthead-brand">Beta</h3>
-				<nav class="nav nav-masthead justify-content-center">
-					<a class="nav-link" href="index.html">Home</a>
-					<a class="nav-link" href="about.html">About Me</a>
-					<a class="nav-link active" href="work.html">My Works</a>
-					<a class="nav-link" href="contact.html">Contact</a>
-				</nav>
+			<button type="button" class="site-nav__toggle" aria-expanded="false" aria-controls="site-nav-menu" aria-label="Toggle navigation menu">
+				<span class="site-nav__toggle-bar"></span>
+				<span class="site-nav__toggle-bar"></span>
+				<span class="site-nav__toggle-bar"></span>
+			</button>
+
+			<div class="site-nav__menu" id="site-nav-menu">
+				<ul class="site-nav__links">
+					<li>
+						<a href="index.html" class="site-nav__link">Home</a>
+					</li>
+					<li>
+						<a href="about.html" class="site-nav__link">About</a>
+					</li>
+					<li>
+						<a href="work.html" class="site-nav__link site-nav__link--active" aria-current="page">Work</a>
+					</li>
+					<li>
+						<a href="contact.html" class="site-nav__link">Contact</a>
+					</li>
+				</ul>
+				<div class="site-nav__social">
+					<a href="https://github.com/christiangerarddr" target="_blank" rel="noopener noreferrer" class="site-nav__social-link" aria-label="GitHub profile">GitHub</a>
+					<a href="https://www.linkedin.com/in/christian-gerard-d-066472276/" target="_blank" rel="noopener noreferrer" class="site-nav__social-link" aria-label="LinkedIn profile">LinkedIn</a>
+				</div>
 			</div>
-		</header>
+		</nav>
+	</header>
+	<div class="cover-container d-flex w-100 p-3 mx-auto flex-column">
 		<div class="about">
 			<div class="container">
-				<h3 class="about-heading mb-2 about-heading">My<span class="text-danger">Personal</span>Works</h3>
-				
-				<div class="card mt-5" style="width: 100%;">
-					
+				<h3 class="about-heading mb-2 about-heading">My<span class="text-danger">Work</span></h3>
+				<p class="work-intro text-light mb-4">
+					Seven years building enterprise platforms, e-commerce systems, and SaaS products with PHP, Laravel, VueJS, ReactJS, AWS, and AI integrations.
+					From global digital asset management at RealPage to high-traffic health platforms at Cloud Employee — plus freelance and personal projects below.
+				</p>
+
+				<div class="card work-card" style="width: 100%;">
 					<div class="card-body">
-						<h5 class="cover-heading-2"><span class="text-danger">Advance</span>POS</h5>
-						<h5 class="cover-heading-2">Inventory<span class="text-danger">Management</span>System</h5>
-						<h5 class="cover-heading-2">Learning<span class="text-danger">Management</span>System</h5>
-						<h5 class="cover-heading-2">Content<span class="text-danger">Management</span>System</h5>
-						<h5 class="cover-heading-2"><span class="text-danger">Laravel</span>WebApps</h5>
-						<h5 class="cover-heading-2"><span class="text-danger">Serverless</span>WebApps</h5>
-						<h5 class="cover-heading-2"><span class="text-danger">Shopify</span>+	Plus</h5>
+						<h5 class="card-title">What I Build</h5>
+						<div class="specialty-grid">
+							<p class="cover-heading-2 mb-0"><span class="text-danger">Enterprise</span> Web Apps</p>
+							<p class="cover-heading-2 mb-0"><span class="text-danger">E-commerce</span> Platforms</p>
+							<p class="cover-heading-2 mb-0"><span class="text-danger">AI-powered</span> Solutions</p>
+							<p class="cover-heading-2 mb-0"><span class="text-danger">Payment</span> Integrations</p>
+							<p class="cover-heading-2 mb-0"><span class="text-danger">Serverless</span> Microservices</p>
+							<p class="cover-heading-2 mb-0"><span class="text-danger">SaaS</span> Products</p>
+							<p class="cover-heading-2 mb-0"><span class="text-danger">Shopify</span> Solutions</p>
+							<p class="cover-heading-2 mb-0"><span class="text-danger">API</span> Development</p>
+						</div>
 					</div>
-				
 				</div>
 
-				<div class="card mt-5" style="width: 100%;">
-					<img src="images/starliege_showcase.png" class="card-img-top" alt="...">
+				<p class="work-section-label mt-5">Professional Projects</p>
+
+				<div class="card work-card" style="width: 100%;">
+					<div class="work-card-header">
+						<div>Canary &middot; CannaReviews &middot; MedAuth &middot; Grandiosa</div>
+						<div class="work-company">Cloud Employee &middot; Sep 2025 – Aug 2026</div>
+					</div>
 					<div class="card-body">
-						<h5 class="card-title">(BETA) Starliege Management & Consulting, Inc.(SMCI)</h5>
-						<p class="card-text">Created using Laravel | Vue.JS | Tailwind CSS | JAVASCRIPT | JQuery</p>
-						<p class="card-text">Starliege (SMCI), team of talanted business consultants outsourcing business services and online marketing</p>
+						<h5 class="card-title">Alternative Medicine & Health Platforms</h5>
+						<p class="card-text">Managed a community platform with 100,000+ registered users. Built white-label deployments, a payment adapter supporting Pinch, Nuvei, Afterpay, and ArtsPay, plus APIs for third-party integrations.</p>
+						<div class="work-tags">
+							<span class="work-tag">Laravel 8–12</span>
+							<span class="work-tag">Livewire</span>
+							<span class="work-tag">Meilisearch</span>
+							<span class="work-tag">AWS</span>
+							<span class="work-tag">Laravel Forge</span>
+						</div>
+						<p class="card-text mt-3 mb-0">
+							<a href="https://canary.health" class="btn-optimus" target="_blank">Canary</a>
+							<a href="https://cannareviews.health/" class="btn-optimus ml-2" target="_blank">CannaReviews</a>
+							<a href="https://medauth.health/" class="btn-optimus ml-2" target="_blank">MedAuth</a>
+							<a href="https://portal.grandiosa.com.au/" class="btn-optimus ml-2" target="_blank">Grandiosa</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="card work-card" style="width: 100%;">
+					<div class="work-card-header">
+						<div>Digital Asset Manager &middot; Property Photos &middot; Loft Living</div>
+						<div class="work-company">RealPage &middot; Aug 2022 – Aug 2025</div>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Global Digital Asset & AI Platforms</h5>
+						<p class="card-text">Optimized enterprise DAM systems serving international operations. Built AI image classification with Google Vertex AI, migrated Laravel versions, and contributed to agentic chatbots with LangChain and OpenAI GPT.</p>
+						<div class="work-tags">
+							<span class="work-tag">Laravel 8–11</span>
+							<span class="work-tag">VueJS</span>
+							<span class="work-tag">Google Vertex AI</span>
+							<span class="work-tag">LangChain</span>
+							<span class="work-tag">Docker</span>
+						</div>
+						<p class="card-text mt-3 mb-0">
+							<a href="https://dam.realpage.com/login" class="btn-optimus" target="_blank">Digital Asset Manager</a>
+							<a href="https://propertyphotos.com/" class="btn-optimus ml-2" target="_blank">Property Photos</a>
+							<a href="https://loftliving.com/" class="btn-optimus ml-2" target="_blank">Loft Living</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="card work-card" style="width: 100%;">
+					<div class="work-card-header">
+						<div>AcquireBPO Company Portal</div>
+						<div class="work-company">AcquireBPO Inc. &middot; Nov 2021 – Jun 2022</div>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">HR, Payroll & Analytics Portal</h5>
+						<p class="card-text">All-in-one company portal with payroll, HR, events, reporting, and analytics. Integrated third-party APIs, built contact center automation tools, and created Tableau dashboards for business intelligence.</p>
+						<div class="work-tags">
+							<span class="work-tag">Laravel 8</span>
+							<span class="work-tag">Vue3</span>
+							<span class="work-tag">Tableau</span>
+							<span class="work-tag">API Integrations</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="card work-card" style="width: 100%;">
+					<div class="work-card-header">
+						<div>SM Omnichannel &middot; GoRobinsons &middot; Robinsons Supermarket</div>
+						<div class="work-company">Invisible Hand Inc. &middot; May 2019 – Nov 2021</div>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Philippine Retail E-commerce Platforms</h5>
+						<p class="card-text">Led architecture for SM's omnichannel platform with serverless AWS microservices. Delivered Shopify integrations for SM and Robinsons, plus GoRobinsons and Robinsons Supermarket e-commerce systems and the Dickies ERP.</p>
+						<div class="work-tags">
+							<span class="work-tag">Laravel 7</span>
+							<span class="work-tag">Serverless</span>
+							<span class="work-tag">Shopify</span>
+							<span class="work-tag">AWS</span>
+							<span class="work-tag">Shopee Integration</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="card work-card" style="width: 100%;">
+					<div class="work-card-header">
+						<div>Doctors App</div>
+						<div class="work-company">Sparksoft Solutions Inc. &middot; Oct 2020 – Feb 2021</div>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">AWS Amplify Mobile Backend</h5>
+						<p class="card-text">Designed scalable cloud backends with AWS Amplify, API Gateway, and Lambda. Maintained microservices and contributed React Native frontend integration for the Doctors App R&D initiative.</p>
+						<div class="work-tags">
+							<span class="work-tag">AWS Amplify</span>
+							<span class="work-tag">Lambda</span>
+							<span class="work-tag">RDS</span>
+							<span class="work-tag">React Native</span>
+						</div>
+					</div>
+				</div>
+
+				<p class="work-section-label mt-5">Freelance Projects</p>
+
+				<div class="card work-card" style="width: 100%;">
+					<div class="work-card-header">
+						<div>MySymphony</div>
+						<div class="work-company">Lead Developer</div>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Music Teacher SaaS</h5>
+						<p class="card-text">SaaS platform for music teachers to manage appointments and billing. Helped choose the tech stack, developed features, enforced unit testing, and reviewed pull requests.</p>
+						<div class="work-tags">
+							<span class="work-tag">Laravel</span>
+							<span class="work-tag">Livewire</span>
+							<span class="work-tag">AlpineJS</span>
+							<span class="work-tag">Tailwind</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="card work-card" style="width: 100%;">
+					<div class="work-card-header">
+						<div>Review Genius</div>
+						<div class="work-company">Lead Developer</div>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Online Ratings SaaS</h5>
+						<p class="card-text">SaaS app helping business owners boost their store's online ratings. Developed core features and reported to the Philippine project manager.</p>
+						<div class="work-tags">
+							<span class="work-tag">Laravel</span>
+							<span class="work-tag">Livewire</span>
+							<span class="work-tag">AlpineJS</span>
+							<span class="work-tag">Tailwind</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="card work-card" style="width: 100%;">
+					<div class="work-card-header">
+						<div>StrongerEHR API</div>
+						<div class="work-company">Lead Developer</div>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Encrypted Audio Transcription API</h5>
+						<p class="card-text">Upload encrypted audio files and receive transcription plus AI-generated summaries via webhooks. Python transcription via Laravel commands, Laravel Crypt decryption, and OpenAI GPT summarization — fully unit tested.</p>
+						<div class="work-tags">
+							<span class="work-tag">Laravel</span>
+							<span class="work-tag">Python</span>
+							<span class="work-tag">OpenAI GPT</span>
+							<span class="work-tag">Webhooks</span>
+						</div>
+					</div>
+				</div>
+
+				<p class="work-section-label mt-5">Personal Projects</p>
+
+				<div class="card work-card" style="width: 100%;">
+					<img src="images/starliege_showcase.png" class="card-img-top" alt="Starliege Management and Consulting">
+					<div class="card-body">
+						<h5 class="card-title">Starliege Management & Consulting, Inc. (SMCI)</h5>
+						<p class="work-meta text-muted">Laravel &middot; Vue.JS &middot; Tailwind CSS &middot; JavaScript</p>
+						<p class="card-text">Business consulting platform for outsourcing business services and online marketing.</p>
 						<a href="https://starliege.herokuapp.com/" class="btn-optimus" target="_blank">Visit Site</a>
 					</div>
 				</div>
 
-				<div class="card mt-5" style="width: 100%;">
-					<img src="images/frontier.jpg" class="card-img-top" alt="...">
+				<div class="card work-card" style="width: 100%;">
+					<img src="images/frontier.jpg" class="card-img-top" alt="Frontier PH">
 					<div class="card-body">
-						<h5 class="card-title">Frontier | ph</h5>
-						<p class="card-text">Created using HTML5 | CSS3 | BOOTSTRAP | JAVASCRIPT</p>
-						<p class="card-text">Frontier's Mission is to help the scientific community to spread awareness about our solar system and its neighboring stars and the constellation, by giving the mainstream media an interactive way to learn about the cosmos and beyond. also, Frontier's mission is to help humanity by researching and improving space observation apparatus and technical equipments that will help the future space missions and explorations.</p>
+						<h5 class="card-title">Frontier PH</h5>
+						<p class="work-meta text-muted">HTML5 &middot; CSS3 &middot; Bootstrap &middot; JavaScript</p>
+						<p class="card-text">Interactive platform to help the scientific community spread awareness about our solar system, neighboring stars, and constellations — plus research into space observation apparatus for future missions.</p>
 					</div>
 				</div>
 
-				<div class="card mt-5" style="width: 100%;">
-					<img src="images/alpha.jpg" class="card-img-top" alt="...">
+				<div class="card work-card" style="width: 100%;">
+					<img src="images/alpha.jpg" class="card-img-top" alt="AlphaOutdoorsPH">
 					<div class="card-body">
 						<h5 class="card-title">AlphaOutdoorsPH</h5>
-						<p class="card-text">Created using HTML5 | CSS3 | BOOTSTRAP | JAVASCRIPT | <strong>JQUERY</strong> | <strong>PHP</strong></p>
-						<p class="card-text">Founded in 2018 and based in Quezon city, Philippines. Alpha Outdoors dedicates itself to provide Sport Equipments, Gears, and Clothing that are recommended by pro mountain hikers and athletes for outdoor activities.</p>
+						<p class="work-meta text-muted">HTML5 &middot; CSS3 &middot; Bootstrap &middot; JavaScript &middot; jQuery &middot; PHP</p>
+						<p class="card-text">Sport equipment, gear, and clothing store based in Quezon City — recommended by pro mountain hikers and athletes for outdoor activities.</p>
 					</div>
 				</div>
 
-				<div class="card mt-5 mb-3" style="width: 100%;">
-					<img src="images/animeter.jpg" class="card-img-top" alt="...">
+				<div class="card work-card mb-4" style="width: 100%;">
+					<img src="images/animeter.jpg" class="card-img-top" alt="Animeter">
 					<div class="card-body">
 						<h5 class="card-title">Animeter</h5>
-						<p class="card-text">Created using HTML5 | CSS3 | BOOTSTRAP | JAVASCRIPT | JQUERY | PHP | <strong>LARAVEL</strong> | <strong>HEROKU</strong></p>
-						<p class="card-text">Animeter is a Digital Graphic review website</p>
+						<p class="work-meta text-muted">HTML5 &middot; CSS3 &middot; Bootstrap &middot; JavaScript &middot; jQuery &middot; PHP &middot; Laravel &middot; Heroku</p>
+						<p class="card-text">Digital graphic review website for anime and animation enthusiasts.</p>
 					</div>
 				</div>
 			</div>

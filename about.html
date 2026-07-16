@@ -4,8 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-	<title>About Me</title>
+	<meta name="description" content="Christian Gerard Delos Reyes — Senior PHP Developer with 7 years of experience in Laravel, VueJS, ReactJS, AWS, and AI integrations.">
+	<title>About Me — Christian Gerard Delos Reyes</title>
 
 	<!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
@@ -13,112 +13,334 @@
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- <link rel="stylesheet" href="devicon-master/devicon.css"> -->
 	<link rel="stylesheet" href="devicon-master/devicon.min.css">
-	<!-- <link rel="stylesheet" href="devicon-master/devicon-colors.css"> -->
+	<link rel="stylesheet" href="devicon-master/devicon-colors.css">
 	<link rel="stylesheet" href="css/backToTopBtn.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="css/cover.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/mysass_template.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 
 </head>
-<body class="text-center">
-	<header>
+<body class="text-center has-site-nav about-page">
+	<header class="site-header">
+		<nav class="site-nav" aria-label="Main navigation">
+			<a href="index.html" class="site-nav__brand">
+				<span class="site-nav__brand-accent">C</span>GDR
+			</a>
 
-		<!-- <div class="menu-btn">
-	      <div class="btn-line"></div>
-	      <div class="btn-line"></div>
-	      <div class="btn-line"></div>
-	    </div> -->
+			<button type="button" class="site-nav__toggle" aria-expanded="false" aria-controls="site-nav-menu" aria-label="Toggle navigation menu">
+				<span class="site-nav__toggle-bar"></span>
+				<span class="site-nav__toggle-bar"></span>
+				<span class="site-nav__toggle-bar"></span>
+			</button>
 
-	    <nav class="menu">
-	      <ul class="menu-nav">
-	        <li class="nav-item">
-	          <a href="index.html" class="nav-link">
-	            Home
-	          </a>
-	        </li>
-	        <li class="nav-item current">
-	          <a href="about.html" class="nav-link">
-	            About Me
-	          </a>
-	        </li>
-	        <li class="nav-item">
-	          <a href="work.html" class="nav-link">
-	            My Work
-	          </a>
-	        </li>
-	        <li class="nav-item">
-	          <a href="contact.html" class="nav-link">
-	            How To Reach Me
-	          </a>
-	        </li>
-	      </ul>
-	    </nav>
-	</header>
-	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-		<header class="masthead mb-auto">
-			<div class="inner">
-				<h3 class="masthead-brand">Beta</h3>
-				<nav class="nav nav-masthead justify-content-center">
-					<a class="nav-link" href="index.html">Home</a>
-					<a class="nav-link active" href="about.html">About Me</a>
-					<a class="nav-link" href="work.html">My Works</a>
-					<a class="nav-link" href="contact.html">Contact</a>
-				</nav>
+			<div class="site-nav__menu" id="site-nav-menu">
+				<ul class="site-nav__links">
+					<li>
+						<a href="index.html" class="site-nav__link">Home</a>
+					</li>
+					<li>
+						<a href="about.html" class="site-nav__link site-nav__link--active" aria-current="page">About</a>
+					</li>
+					<li>
+						<a href="work.html" class="site-nav__link">Work</a>
+					</li>
+					<li>
+						<a href="contact.html" class="site-nav__link">Contact</a>
+					</li>
+				</ul>
+				<div class="site-nav__social">
+					<a href="https://github.com/christiangerarddr" target="_blank" rel="noopener noreferrer" class="site-nav__social-link" aria-label="GitHub profile">GitHub</a>
+					<a href="https://www.linkedin.com/in/christian-gerard-d-066472276/" target="_blank" rel="noopener noreferrer" class="site-nav__social-link" aria-label="LinkedIn profile">LinkedIn</a>
+				</div>
 			</div>
-		</header>
+		</nav>
+	</header>
+	<div class="cover-container d-flex w-100 p-3 mx-auto flex-column">
 
 		<div class="about">
-			<div class="container">
-				<h3 class="about-heading mb-3 about-heading"><span class="text-danger">About</span>Me</h3>
-				<div class="img-me">
-					<img class="img-fluid me" src="images/me2.jpg">
-				</div>
-				<div class="about-text">
-					<p class="lead text-light">Christian Gerard Delos Reyes</p>
-					<p class="lead text-light">25 years old, City of San Jose Del Monte resident</p>
-					<p class="lead text-light">My educational attainments are:</p>
-					<p class="about-subtext text-warning">• Diploma in Computer Engineering Technology, PUP Sta. Mesa</p>
-					<p class="about-subtext text-warning">• Software Engineering Training, University of the Philippines ITDC</p>
-					<p class="about-subtext text-warning">• Full Stack Web Developing Bootcamp, @TUITT Quezon city</p>
-					
-					<p class="lead text-light">My Work Expiriences:</p>
+			<div class="container about-container">
 
-					<p class="about-subtext text-warning">• PHP Web Application Developer | <span class="text-light">NOV2021 - JUN2022 · 8 mos</span> | @AcquireBPO</p>
-					<p class="about-subtext text-warning">• Mid Web Developer / Team Lead | <span class="text-light">JAN2021 - NOV2021 · 11 mos</span> | @Invisible Hand Inc., Game Revolution PH</p>
-					<p class="about-subtext text-warning">• Software Developer | <span class="text-light">OCT2020 - JAN2021 · 4 mos</span> | @Invisible Hand Inc., Game Revolution PH</p>
-					<p class="about-subtext text-warning">• Web Developer | <span class="text-light">MAY2019 - SEP2020 · 1 yr 5 mos</span> | @Invisible Hand Inc., Game Revolution PH</p>
-					<p class="about-subtext text-warning">• Asp.Net Developer |<span class="text-light"> MAR2019 - APR2019 · 2 mos</span>| @SnapCompare Corp. eComparemo</p>
-					
-					<p class="lead text-light">My Educational awards:</p>
-					<p class="about-subtext text-warning">• Research Colloquium Awardee 2017@College of Technology PUP Manila</p>
-					<p class="about-subtext text-warning">• Best Thesis Awardee, 4th place 2018@PUP Manila</p>
-				</div>
+				<nav class="about-jump" aria-label="On this page">
+					<a href="#profile" class="about-jump__link">Profile</a>
+					<a href="#skills" class="about-jump__link">Skills</a>
+					<a href="#experience" class="about-jump__link">Experience</a>
+					<a href="#freelance" class="about-jump__link">Freelance</a>
+				</nav>
 
-				<h3 class="about-heading mb-3 about-heading"><span class="text-danger">Skills</span>Set</h3>
-				<div class="icons">
-					<i class="devicon-html5-plain-wordmark colored"></i>
-					<i class="devicon-css3-plain-wordmark colored"></i>
-					<i class="devicon-javascript-plain colored"></i>
-					<i class="devicon-bootstrap-plain-wordmark colored"></i>
-					<i class="devicon-git-plain-wordmark colored"></i>
-					<i class="devicon-jquery-plain-wordmark colored"></i>
-					<i class="devicon-php-plain colored"></i>
-					<i class="devicon-mysql-plain-wordmark colored"></i>
-					<i class="devicon-laravel-plain-wordmark colored"></i>
-					<i class="devicon-dot-net-plain-wordmark colored"></i>
-					
-					<i class="devicon-csharp-plain-wordmark colored"></i>
-					<i class="devicon-vim-plain"></i>
-					<i class="devicon-vuejs-plain colored"></i>
-					<i class="devicon-amazonwebservices-plain-wordmark colored"></i>
-					
-					<i class="devicon-photoshop-line colored"></i>
-					<i class="devicon-wordpress-plain-wordmark"></i>
+				<section id="profile" class="about-section">
+					<header class="about-hero">
+						<div class="about-hero__photo">
+							<img class="img-fluid me" src="images/me2.jpg" alt="Christian Gerard Delos Reyes">
+						</div>
+						<div class="about-hero__info">
+							<h1 class="about-page-heading"><span class="text-danger">About</span>Me</h1>
+							<p class="about-hero__name">Christian Gerard S. Delos Reyes</p>
+							<p class="about-hero__role">Senior PHP Developer</p>
+							<p class="about-hero__meta">San Jose Del Monte City, Bulacan</p>
+							<div class="about-hero__actions">
+								<a href="https://docs.google.com/document/d/1XDAUcEviitoTFemWa0sYbbc3p-TdJVueCCDxhnCi0ow/edit?tab=t.0" class="btn btn-mybtn btn-sm" target="_blank" rel="noopener noreferrer">View Resume</a>
+								<a href="https://www.pleasantly.online" class="btn btn-index-secondary btn-sm" target="_blank" rel="noopener noreferrer">Pleasantly Online</a>
+							</div>
+						</div>
+					</header>
 
+					<div class="about-block">
+						<h2 class="about-page-heading"><span class="text-danger">Professional</span>Summary</h2>
+						<p class="about-summary">
+							I'm a Laravel Developer with 7 years of experience, working with PHP, Laravel, VueJS, ReactJS, the TALL stack, and AWS.
+							At RealPage, I helped improve global platforms such as the Digital Asset Manager and Property Photos by making systems more stable, automating tasks, and adding AI features that reduced manual work and sped up content management.
+							At AcquireBPO, I enhanced the HR, payroll, and analytics portal by building automation and improving data visualization.
+							Earlier, at Invisible Hand and Sparksoft, I worked with the two biggest supermarkets in the Philippines on projects like the SM Omnichannel Platform, GoRobinsons, and Robinsons Supermarket's E-commerce system.
+						</p>
+					</div>
 
-				</div>
+					<div class="about-columns">
+						<div class="about-block">
+							<h2 class="about-page-heading"><span class="text-danger">E</span>ducation</h2>
+							<ul class="about-list">
+								<li class="about-list__item">
+									<span class="about-list__title">Diploma in Computer Engineering Technology</span>
+									<span class="about-list__meta">Polytechnic University of the Philippines, Manila &middot; Jun 2015 – Apr 2018</span>
+								</li>
+								<li class="about-list__item">
+									<span class="about-list__title">Software Engineering Training</span>
+									<span class="about-list__meta">University of the Philippines ITDC &middot; Jun 2016 – Jul 2016</span>
+								</li>
+								<li class="about-list__item">
+									<span class="about-list__title">Intensive I.T Coding Bootcamp</span>
+									<span class="about-list__meta">Tuitt Philippines Inc. &middot; Oct 2018 – Jan 2019</span>
+								</li>
+							</ul>
+						</div>
+						<div class="about-block">
+							<h2 class="about-page-heading"><span class="text-danger">A</span>wards</h2>
+							<ul class="about-list">
+								<li class="about-list__item">
+									<span class="about-list__title">Best Group Thesis Awardee</span>
+									<span class="about-list__meta">President of the group</span>
+								</li>
+								<li class="about-list__item">
+									<span class="about-list__title">Research Colloquium Awardee</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section id="skills" class="about-section">
+					<h2 class="about-page-heading"><span class="text-danger">Skills</span>Set</h2>
+					<p class="about-skills-intro">Core languages, frameworks, and platforms I work with day to day.</p>
+					<div class="about-skills-icons icons" aria-label="Technology icons">
+						<i class="devicon-php-plain colored" title="PHP"></i>
+						<i class="devicon-laravel-plain-wordmark colored" title="Laravel"></i>
+						<i class="devicon-vuejs-plain colored" title="Vue.js"></i>
+						<i class="devicon-react-plain colored" title="React"></i>
+						<i class="devicon-javascript-plain colored" title="JavaScript"></i>
+						<i class="devicon-python-plain colored" title="Python"></i>
+						<i class="devicon-mysql-plain-wordmark colored" title="MySQL"></i>
+						<i class="devicon-postgresql-plain-wordmark colored" title="PostgreSQL"></i>
+						<i class="devicon-amazonwebservices-plain-wordmark colored" title="AWS"></i>
+						<i class="devicon-docker-plain-wordmark colored" title="Docker"></i>
+						<i class="devicon-git-plain-wordmark colored" title="Git"></i>
+						<i class="devicon-bootstrap-plain-wordmark colored" title="Bootstrap"></i>
+						<i class="devicon-html5-plain-wordmark colored" title="HTML5"></i>
+						<i class="devicon-css3-plain-wordmark colored" title="CSS3"></i>
+					</div>
+					<div class="skill-tags about-skill-tags">
+						<span class="skill-tag">PHPUnit</span>
+						<span class="skill-tag">Livewire</span>
+						<span class="skill-tag">Alpine.js</span>
+						<span class="skill-tag">Tailwind CSS</span>
+						<span class="skill-tag">GraphQL</span>
+						<span class="skill-tag">LangChain</span>
+						<span class="skill-tag">OpenAI</span>
+						<span class="skill-tag">Google Vertex AI</span>
+						<span class="skill-tag">Serverless</span>
+						<span class="skill-tag">Shopify</span>
+						<span class="skill-tag">OWASP</span>
+						<span class="skill-tag">CI/CD</span>
+					</div>
+				</section>
+
+				<section id="experience" class="about-section">
+					<h2 class="about-page-heading"><span class="text-danger">Work</span>Experience</h2>
+
+					<article class="card experience-card">
+						<div class="experience-card-header">
+							<h3 class="experience-card-title">Senior Developer</h3>
+							<span class="experience-card-company">Cloud Employee</span>
+							<span class="experience-meta">Contract &middot; Sep 2025 – Aug 2026</span>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Managed a high-traffic alternative medicine community platform with 100,000+ registered users. Developed white-label product variants, integrated multiple payment gateways via a custom payment adapter, and maintained AWS infrastructure with Laravel Forge.</p>
+							<p class="card-text"><strong>Projects:</strong> <a href="https://canary.health" target="_blank" rel="noopener noreferrer">Canary</a>, <a href="https://cannareviews.health/" target="_blank" rel="noopener noreferrer">CannaReviews</a>, <a href="https://medauth.health/" target="_blank" rel="noopener noreferrer">MedAuth</a>, <a href="https://portal.grandiosa.com.au/" target="_blank" rel="noopener noreferrer">Grandiosa</a></p>
+							<div class="work-tags">
+								<span class="work-tag">PHP</span>
+								<span class="work-tag">Laravel 8–12</span>
+								<span class="work-tag">Livewire</span>
+								<span class="work-tag">MySQL</span>
+								<span class="work-tag">Redis</span>
+								<span class="work-tag">Meilisearch</span>
+								<span class="work-tag">Docker</span>
+								<span class="work-tag">AWS</span>
+								<span class="work-tag">Laravel Forge</span>
+								<span class="work-tag">Sentry</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="card experience-card">
+						<div class="experience-card-header">
+							<h3 class="experience-card-title">Developer III — Senior Developer</h3>
+							<span class="experience-card-company">RealPage</span>
+							<span class="experience-meta">Aug 2022 – Aug 2025</span>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Managed and optimized a global digital asset management system. Migrated Laravel frameworks, built AI-driven image classification with Google Vertex AI, and contributed to agentic chatbot solutions using LangChain and OpenAI GPT.</p>
+							<p class="card-text"><strong>Projects:</strong> <a href="https://dam.realpage.com/login" target="_blank" rel="noopener noreferrer">Digital Asset Manager</a>, <a href="https://propertyphotos.com/" target="_blank" rel="noopener noreferrer">Property Photos</a>, DAM Curation, <a href="https://loftliving.com/" target="_blank" rel="noopener noreferrer">Loft Living AI Chatbot</a></p>
+							<div class="work-tags">
+								<span class="work-tag">PHP</span>
+								<span class="work-tag">Laravel 8–11</span>
+								<span class="work-tag">VueJS</span>
+								<span class="work-tag">Redis</span>
+								<span class="work-tag">Docker</span>
+								<span class="work-tag">Google Vertex AI</span>
+								<span class="work-tag">Python</span>
+								<span class="work-tag">LangChain</span>
+								<span class="work-tag">OpenAI GPT</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="card experience-card">
+						<div class="experience-card-header">
+							<h3 class="experience-card-title">PHP Web Application Developer</h3>
+							<span class="experience-card-company">AcquireBPO Inc.</span>
+							<span class="experience-meta">Project-Based &middot; Nov 2021 – Jun 2022</span>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Developed features for the company's all-in-one portal covering payroll, HR, events, reporting, and analytics. Integrated third-party APIs, built automation tools for contact center agents, and created Tableau visualizations.</p>
+							<div class="work-tags">
+								<span class="work-tag">PHP</span>
+								<span class="work-tag">Laravel 8</span>
+								<span class="work-tag">VueJS</span>
+								<span class="work-tag">MySQL</span>
+								<span class="work-tag">Redis</span>
+								<span class="work-tag">CI/CD</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="card experience-card">
+						<div class="experience-card-header">
+							<h3 class="experience-card-title">Mid Web Developer &amp; Team Lead</h3>
+							<span class="experience-card-company">Invisible Hand Inc.</span>
+							<span class="experience-meta">Jan 2021 – Nov 2021</span>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Led architecture planning for the SM Omnichannel E-commerce Platform. Implemented serverless AWS microservices, directed scrum meetings and PR reviews, and delivered Shopify integrations for SM and Robinsons.</p>
+							<div class="work-tags">
+								<span class="work-tag">PHP</span>
+								<span class="work-tag">Laravel 7</span>
+								<span class="work-tag">Serverless</span>
+								<span class="work-tag">AWS</span>
+								<span class="work-tag">MySQL</span>
+								<span class="work-tag">Redis</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="card experience-card">
+						<div class="experience-card-header">
+							<h3 class="experience-card-title">Software Developer</h3>
+							<span class="experience-card-company">Sparksoft Solutions Inc.</span>
+							<span class="experience-meta">Project-Based &middot; Oct 2020 – Feb 2021</span>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Built backend foundations for the Doctors App using AWS Amplify. Maintained AWS microservices and contributed React Native frontend integration.</p>
+							<div class="work-tags">
+								<span class="work-tag">AWS Amplify</span>
+								<span class="work-tag">API Gateway</span>
+								<span class="work-tag">Lambda</span>
+								<span class="work-tag">RDS</span>
+								<span class="work-tag">NodeJS</span>
+								<span class="work-tag">React Native</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="card experience-card">
+						<div class="experience-card-header">
+							<h3 class="experience-card-title">Web Developer</h3>
+							<span class="experience-card-company">Invisible Hand Inc.</span>
+							<span class="experience-meta">May 2019 – Sep 2020</span>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Developed e-commerce platforms including GoRobinsons and Robinsons Supermarket, plus the Dickies ERP System. Architected and deployed applications on AWS Elastic Beanstalk.</p>
+							<div class="work-tags">
+								<span class="work-tag">PHP</span>
+								<span class="work-tag">Laravel</span>
+								<span class="work-tag">Shopify</span>
+								<span class="work-tag">GitLab Pipelines</span>
+								<span class="work-tag">AWS Elastic Beanstalk</span>
+								<span class="work-tag">Redis</span>
+							</div>
+						</div>
+					</article>
+				</section>
+
+				<section id="freelance" class="about-section about-section--last">
+					<h2 class="about-page-heading"><span class="text-danger">Freelance</span>Projects</h2>
+
+					<article class="card experience-card">
+						<div class="experience-card-header">
+							<h3 class="experience-card-title">Lead Developer</h3>
+							<span class="experience-card-company">MySymphony</span>
+						</div>
+						<div class="card-body">
+							<p class="card-text">SaaS app for music teachers to manage appointments and billing. Analyzed requirements, developed features, enforced unit testing, and reviewed pull requests.</p>
+							<div class="work-tags">
+								<span class="work-tag">Tailwind</span>
+								<span class="work-tag">Laravel</span>
+								<span class="work-tag">Livewire</span>
+								<span class="work-tag">AlpineJS</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="card experience-card">
+						<div class="experience-card-header">
+							<h3 class="experience-card-title">Lead Developer</h3>
+							<span class="experience-card-company">Review Genius</span>
+						</div>
+						<div class="card-body">
+							<p class="card-text">SaaS app for business owners to boost their store's online ratings.</p>
+							<div class="work-tags">
+								<span class="work-tag">Tailwind</span>
+								<span class="work-tag">Laravel</span>
+								<span class="work-tag">Livewire</span>
+								<span class="work-tag">AlpineJS</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="card experience-card">
+						<div class="experience-card-header">
+							<h3 class="experience-card-title">Lead Developer</h3>
+							<span class="experience-card-company">StrongerEHR API</span>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Upload encrypted audio files and return transcription and AI-generated summaries via webhooks. Used Python for transcription, Laravel Crypt for decryption, and OpenAI GPT for summarization.</p>
+							<div class="work-tags">
+								<span class="work-tag">Laravel</span>
+								<span class="work-tag">Python</span>
+								<span class="work-tag">OpenAI GPT</span>
+							</div>
+						</div>
+					</article>
+				</section>
+
 			</div>
 		</div>
 
@@ -126,7 +348,7 @@
 
 		<footer class="mastfoot mt-4">
 			<div class="inner">
-				<p>Welcome to my Portfolio <a href="https://github.com/christiangerarddr" target="_blank">Github</a> contact <a href="https://plus.google.com/u/0/116848912651667057668?tab=mX" target="_blank">@christiangerarddr</a></p>
+				<p>Welcome to my Portfolio <a href="https://github.com/christiangerarddr" target="_blank" rel="noopener noreferrer">Github</a> &middot; <a href="https://www.linkedin.com/in/christian-gerard-d-066472276/" target="_blank" rel="noopener noreferrer">LinkedIn</a> &middot; <a href="https://www.pleasantly.online" target="_blank" rel="noopener noreferrer">Pleasantly Online</a></p>
 			</div>
 		</footer>
 
